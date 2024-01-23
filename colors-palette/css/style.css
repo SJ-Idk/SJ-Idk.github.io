@@ -129,3 +129,49 @@
     text-align: center;
     padding: 24px; 
 }
+
+#palette3 {
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#palett3-color1 {
+    background-color: #FF4800;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color2 {
+    background-color: #FF5400;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color3 {
+    background-color: #FF6000;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color4 {
+    background-color: #FF6D00;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color5 {
+    background-color: #FF7900;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
