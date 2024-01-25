@@ -31,14 +31,12 @@
 
 /* Drill 6 - Write your code solution below */
 #d6-div-1 {
-    border: 1px solid lightcoral;
     border-radius: 24px;
     border-bottom-right-radius: 0px;
     background-color: lightcoral;
 }
 
 #d6-div-2 {
-    border: 1px solid lightblue;
     border-radius: 24px;
     border-bottom-left-radius: 0px;
     background-color: lightblue;
