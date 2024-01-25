@@ -1,0 +1,14 @@
+div {
+    border: 10px ridge maroon;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: rgb(123, 196, 58); 
+}
+
+p {
+    border: 10px outset green;
+    border-radius: 50px;
+    margin: 60px;
+    padding: 36px;
+    background-color: skyblue;
+}
