@@ -14,7 +14,7 @@
 
 /* Drill 3 - Write your code solution below */
 .d3-h2 {
-    border-bottom: 3px solid black
+    border-bottom: 2px solid black;
 }
 
 /* Drill 4 - Write your code solution below */
@@ -26,7 +26,7 @@
 /* Drill 5 - Write your code solution below */
 .d5-div {
     border: 20px solid teal;
-    border-radius: 12px
+    border-radius: 12px;
 }
 
 /* Drill 6 - Write your code solution below */
