@@ -32,3 +32,28 @@
     background-color: green;
     border-color: darkgreen
 }
+
+.cyan {
+    background-color: cyan;
+    border-color: darkcyan;
+}
+
+.blue {
+    background-color: blue;
+    border-color: darkblue;
+}
+
+.purple {
+    background-color: violet;
+    border-color: darkviolet;
+}
+
+.black {
+    background-color: black;
+    border-color: black;
+}
+
+.white {
+    background-color: white;
+    border-color: wheat;
+}
