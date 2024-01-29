@@ -1,0 +1,128 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    width: 700px;
+    border-radius: 24px;
+    background-color: orange;
+    border: 3px solid black;
+}
+
+h1 {
+    padding-left: 12px;
+    text-align: left;
+    color: darkblue;
+    font-size: 40px;
+}
+
+#left-side {
+    display: inline-block;
+    width: 65%;
+}
+
+#right-side {
+    display: inline-block;
+}
+
+h4 {
+    text-align: center;
+    padding: 20px;
+    margin: 12px;
+    background-color: darkblue;
+    color: white;
+    font-family: Arial;
+    font-size: 30px
+}
+
+#id-and-expiration {
+    display: inline-block;
+    padding: 12px;
+    color: darkblue;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+#id-and-expiration span {
+    color: red;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#address {
+    font-weight: bold;
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 12px;
+}
+
+#data-left {
+    color: darkblue;
+    display: inline-block;
+    font-family: Arial;
+}
+
+#data-left span {
+    display: inline-block;
+    color: red;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#data-fields {
+    padding: 12px;
+}
+
+#data-right {
+    color: darkblue;
+    font-family: Arial;
+    display: inline-block;
+    text-align: center;
+}
+
+#data-right span {
+    display: inline-block;
+    color: red;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#signature {
+    font-style: italic;
+    font-family: cursive;
+    text-align: center;
+    font-size: 24px;
+}
+
+#donor {
+    color: red;
+    font-weight: bold;
+    font-family: Arial;
+    display: inline-block;
+    width: 12%;
+}
+
+#real-id {
+    color: yellow;
+    display: inline-block;
+    width: 12%;
+}
+
+#personal-info img {
+    display: inline-block;
+    margin: 12px;
+    text-align: left;
+}
+#right-side img {
+    display: inline-block;
+    width: 120%;
+    margin: 12px;
+    padding: 24px
+}
