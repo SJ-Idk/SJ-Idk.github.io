@@ -110,3 +110,20 @@
     box-shadow: 8px 8px 8px black;
     font-size: 15px;
 }
+
+.post-it-lime-2 {
+    background-color: limegreen;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Courier;
+    font-size: 18px;
+    box-shadow: 8px 8px 8px black;
+}
+
+.post-it-lime-2 ul {
+    font-size: 18px;
+    padding: 24px;
+}
