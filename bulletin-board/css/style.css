@@ -18,6 +18,17 @@
     box-shadow: 8px 8px 8px black;
 }
 
+.post-it-2 {
+    background-color: yellow;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Courier;
+    box-shadow: 8px 8px 8px black;
+}
+
 .post-it-lime {
     background-color: limegreen;
     display: inline-block;
@@ -38,8 +49,47 @@
     background-color: beige;
 }
 
-.post-it-lightblue {
+.post-it-lightblue{
     background-color: lightblue;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Courier;
+    font-size: 24px;
+    font-weight: bolder;
+    box-shadow: 8px 8px 8px black;
+}
+
+.post-it-lightblue {
+    font-size: 15px;
+}
+
+.post-it-lightblue-2 {
+    background-color: lightblue;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Courier;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 8px 8px 8px black;
+}
+
+.post-it-lightblue-2 p {
+    font-size: 12px;
+}
+
+.post-it-lightblue-2 h4{
+    margin: 12px;
+    font-size: 12px;
+}
+
+.post-it-pink{
+    background-color: pink;
     display: inline-block;
     width: 200px;
     height: 200px;
@@ -49,7 +99,7 @@
     box-shadow: 8px 8px 8px black;
 }
 
-.post-it-pink {
+.post-it-pink-2 {
     background-color: pink;
     display: inline-block;
     width: 200px;
@@ -58,4 +108,5 @@
     padding: 24px;
     font-family: Courier;
     box-shadow: 8px 8px 8px black;
+    font-size: 15px;
 }
