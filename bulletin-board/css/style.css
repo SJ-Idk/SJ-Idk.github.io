@@ -7,7 +7,55 @@
     Good luck, and have fun!
 */
 
-div {
+.post-it {
     background-color: yellow;
-    
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Courier;
+    box-shadow: 8px 8px 8px black;
+}
+
+.post-it-lime {
+    background-color: limegreen;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Courier;
+    box-shadow: 8px 8px 8px black;
+}
+
+.post-it-lime img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 12px;
+    margin: 12px;
+    background-color: beige;
+}
+
+.post-it-lightblue {
+    background-color: lightblue;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Courier;
+    box-shadow: 8px 8px 8px black;
+}
+
+.post-it-pink {
+    background-color: pink;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-family: Courier;
+    box-shadow: 8px 8px 8px black;
 }
