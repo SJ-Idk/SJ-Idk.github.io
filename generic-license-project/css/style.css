@@ -6,18 +6,22 @@
 
     Good luck, and have fun!
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
 #license {
     width: 700px;
     border-radius: 24px;
-    background-color: orange;
+    background: linear-gradient(to left, #FFA61D, #FFB528, #FFCB39);
     border: 3px solid black;
 }
 
 h1 {
-    padding-left: 12px;
+    padding: 15px;
     text-align: left;
     color: darkblue;
     font-size: 40px;
+    margin: 0px;
 }
 
 #left-side {
@@ -30,21 +34,23 @@ h1 {
 }
 
 h4 {
+    display: block;
+    width: 400px;
     text-align: center;
-    padding: 20px;
-    margin: 12px;
+    padding: 12px;
     background-color: darkblue;
     color: white;
     font-family: Arial;
-    font-size: 30px
+    font-size: 30px;
+    margin: 0px 12px 12px 12px;
 }
 
-#id-and-expiration {
+#id-and-expiration div {
     display: inline-block;
-    padding: 12px;
     color: darkblue;
     font-family: Arial;
     font-size: 20px;
+    margin-left: 12px;
 }
 
 #id-and-expiration span {
@@ -78,6 +84,18 @@ h4 {
 
 #data-fields {
     padding: 12px;
+    display: inline-block;
+}
+
+#small-pic {
+    display: inline-block;
+    margin: 12px;
+    text-align: left;
+    filter: opacity( 65%);
+}
+
+#small-pic img {
+    width: 100px;
 }
 
 #data-right {
@@ -95,34 +113,33 @@ h4 {
 }
 
 #signature {
-    font-style: italic;
-    font-family: cursive;
+    font-family: "Ms Madi", cursive;
+    font-weight: bold;
+    font-style: normal;
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    width: 170%;
+}
+
+#donor-and-real-id {
+    display: inline-block;
+    padding: 10px;
+    margin: 6px
 }
 
 #donor {
-    color: red;
-    font-weight: bold;
-    font-family: Arial;
     display: inline-block;
-    width: 12%;
+    color: red;
+    font-family: Arial;
+    font-weight: bold;
 }
 
 #real-id {
+    display: inline-block;
     color: yellow;
-    display: inline-block;
-    width: 12%;
-}
-
-#personal-info img {
-    display: inline-block;
-    margin: 12px;
-    text-align: left;
-}
-#right-side img {
-    display: inline-block;
-    width: 120%;
-    margin: 12px;
-    padding: 24px
 }
