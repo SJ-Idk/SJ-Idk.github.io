@@ -6,3 +6,43 @@
 
     Good luck, and have fun!
 */
+
+.display-area {
+    background-color: black;
+    margin-top: 20px;
+    padding: 12px;
+    box-shadow: 2px 4px 4px black;
+}
+
+.display-area img {
+    width: 80px;
+    padding: 8px;
+    margin: 0px;
+}
+
+.display-area-2 {
+    margin-top: 36px;
+    padding: 12px;
+
+}
+
+.display-area-2 img {
+    width: 100px;
+}
+
+.display-area-3 {
+    background-color: brown;
+    margin-top: 48px;
+    box-shadow: 2px 4px 4px black;
+}
+
+.display-area-3 img {
+    width: 100px;
+    padding: 10px;
+}
+
+.display-area-4 {
+    margin-top: 24px;
+    width: 100px;
+    padding: 12px;
+}
