@@ -4,7 +4,11 @@
 
 body {
     margin: 0px;
-    font-family: 'Franklin Gothic Medium';
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
 }
 
 .single-column {
@@ -14,13 +18,28 @@ body {
     margin-right: auto;
 }
 
-.light-container {
+.orange-container {
     background-color: rgb(205, 111, 16);
     padding: 48px 0px;
     color: white;
 }
 
-.single-column p {
+#candy-1 p {
     margin-left: auto;
     font-size: 12px;
+    background-color: rgb(163, 102, 28);
+    padding: 24px;
+}
+
+.red-container {
+    background-color: rgb(192, 55, 55);
+    padding: 48px 0px;
+    color: white;
+}
+
+#candy-2 p {
+    font-size: 12px;
+    background-color: rgb(162, 16, 16);
+    color: white;
+    padding: 24px;
 }
