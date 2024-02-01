@@ -10,12 +10,12 @@
 .display-area {
     background-color: black;
     margin-top: 20px;
-    padding: 12px;
+    padding: 10px;
     box-shadow: 2px 4px 4px black;
 }
 
 .display-area img {
-    width: 80px;
+    width: 120px;
     padding: 8px;
     margin: 0px;
 }
