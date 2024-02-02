@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-areas: "content sidebar";
+}
+
+#sidebar-content {
+    background-color: lightcoral;
+    grid-area: sidebar;
+}
+
+#main-content {
+    background-color: lightgreen;
+    grid-area: content;
+}
