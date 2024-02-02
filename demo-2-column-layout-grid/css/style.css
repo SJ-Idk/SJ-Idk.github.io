@@ -50,6 +50,10 @@ body {
     border-bottom: 0px;
 }
 
+#sidebar-content li:hover {
+    background-color: darkgray;
+}
+
 #main-content {
     background-color: lightgreen;
     grid-area: content;
