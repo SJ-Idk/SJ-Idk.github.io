@@ -52,6 +52,7 @@ body {
 
 #sidebar-content li:hover {
     background-color: darkgray;
+    padding: 3px;
 }
 
 #main-content {
