@@ -14,11 +14,44 @@ body {
 }
 
 #sidebar-content {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     grid-area: sidebar;
+    padding: 18px;
+}
+
+#sidebar-content h2 {
+    background-color: darkslateblue;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+}
+
+#sidebar-content ul {
+    background-color: lightgrey;
+    margin: 0px;
+    border: 1px solid darkslategray;
+    list-style-type: none;
+    padding: 0px 12px; 
+}
+
+#sidebar-content a {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+#sidebar-content li {
+    padding: 8px 0px;
+    border-bottom: 1px solid darkslateblue; 
+}
+
+#sidebar-content li:last-child {
+    border-bottom: 0px;
 }
 
 #main-content {
     background-color: lightgreen;
     grid-area: content;
 }
+
