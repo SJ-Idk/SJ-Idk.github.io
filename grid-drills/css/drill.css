@@ -14,7 +14,7 @@
 #container-d3 {
     display: grid;
    grid-template-areas: 
-    "one two three";
+        "one two three";
 }
 
 /* Drill 4 - Write your code solution below */
