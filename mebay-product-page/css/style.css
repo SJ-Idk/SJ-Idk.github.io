@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+}
+
+#info {
+    grid-area: info;
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+}
+
+#header a {
+    text-decoration: none;
+    background-color: rgb(171, 170, 166);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#header #m {
+    color: red;
+}
+
+#header #e {
+    color: orange;
+}
+
+#header #b {
+    color: yellow;
+}
+
+#header #a {
+    color: green;
+}
+
+#header #y {
+    color: blue;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding: 0px 24px;
+}
+
+#sidebar img {
+    padding: 12px 0px;
+    margin: 0px;
+    border-radius: 4px;
+}
+
+#sidebar img:hover {
+    background-color: lightslategray;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mebay-selected-item {
+    padding: 12px;
+    margin-bottom: 24px;
+}
+
+.mebay-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.mebay-item .thumbnail-placeholder {
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+.mebay-item h4 {
+    margin: 8px;
+}
+
+.mebay-item h4 a {
+    text-decoration: none;
+    color: #111111;
+    display: block;
+}
+
+.mebay-item h4 a:hover {
+    text-decoration: underline;
+}
+
+.mebay-item .product-details {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.mebay-item .product-price {
+    margin-bottom: 4px;
+}
+
+.mebay-item .product-price a {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.mebay-item .shipping-and-feedback {
+    color: gray;
+}
