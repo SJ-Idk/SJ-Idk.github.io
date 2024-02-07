@@ -6,3 +6,33 @@
 
     Good luck, and have fun!
 */
+
+#display-area img {
+    box-shadow: 2px 2px 2px black;
+    margin-top: 20px;
+    border: 5px ridge rgb(90, 55, 29);
+}
+
+#display-area {
+    padding: 4px;
+}
+
+#display-area-2 img {
+    box-shadow: 2px 2px 2px black;
+    margin-top: 36px;
+    border: 5px ridge goldenrod;
+}
+
+#display-area-2 {
+    padding: 4px;
+}
+
+#display-area-3 img {
+    box-shadow: 4px 4px 4px black;
+    margin: 15px;
+    border: 5px ridge brown;
+}
+
+#display-area-3 {
+    padding: 4px;
+}
