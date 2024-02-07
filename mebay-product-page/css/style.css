@@ -60,16 +60,17 @@ body {
 }
 
 #sidebar img {
-    padding: 12px 0px;
+    width: 120px;
+    padding: 12px;
     margin: 0px;
     border-radius: 4px;
 }
 
 #sidebar img:hover {
-    background-color: lightslategray;
-    padding: 8px;
+    background-color: rgb(167, 167, 167);
     border: 2px solid black;
     border-radius: 4px;
+    filter: opacity(70%);
 }
 
 #main {
@@ -119,6 +120,12 @@ body {
 
 .mebay-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;
+}
+
+.mebay-item .thumbnail-placeholder img:hover {
+    filter: opacity(70%);
+    border: 2px solid black;
+    border-radius: 4px;
 }
 
 .mebay-item h4 {
