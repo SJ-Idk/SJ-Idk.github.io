@@ -26,28 +26,32 @@ body {
     text-decoration: none;
     background-color: rgb(142, 141, 138);
     border: 2px solid rgb(160, 0, 240);
-    border-radius: 5px;
-    padding: 4px;
+    border-radius: 8px;
+    padding: 6px;
 }
 
 #header #m {
     color: red;
 }
 
-#header #e {
+#header #i {
     color: orange;
 }
 
-#header #b {
+#header #ii {
     color: yellow;
 }
 
-#header #a {
+#header #b {
     color: green;
 }
 
-#header #y {
+#header #a {
     color: blue;
+}
+
+#header #y {
+    color: blueviolet;
 }
 
 #sidebar {
