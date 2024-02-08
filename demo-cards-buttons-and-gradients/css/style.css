@@ -22,8 +22,8 @@ body {
     border: 2px solid #ffe4da;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: -4px 4px 12px #ceaaaa;
-    background: linear-gradient(-50deg, #ffdbdb, #fff7f7, #ffc9c9);
+    box-shadow: 4px 4px 12px #ceaaaa;
+    background: linear-gradient(50deg, #ffdbdb, #fff7f7, #ffc9c9);
     display: flex;
     flex-direction: column;
 }
