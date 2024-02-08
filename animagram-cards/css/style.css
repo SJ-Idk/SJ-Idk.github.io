@@ -22,7 +22,12 @@
 
 .card-style-2 img {
     border-radius: 50%;
-    width: 55%;
+    width: 60%;
+}
+
+.card-style-2 .profile-pic-container {
+    display: flex; 
+    justify-content: center;
     margin: 12px;
 }
 
