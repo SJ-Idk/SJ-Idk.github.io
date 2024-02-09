@@ -1,0 +1,96 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3 {
+    max-width: 350px;
+    padding: 12px;
+    margin: 12px;
+    border: 15px solid gold;
+    border-radius: 10px;
+}
+
+#pokemon-card-1 {
+    background:
+        radial-gradient(at top left, rgb(171, 234, 171), rgb(41, 135, 41), rgb(171, 234, 171));
+}
+
+.card-style-3 .pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-style-3 img {
+    width: 100%;
+    border: 5px solid goldenrod;
+}
+
+.card-style-3 .details {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    background: linear-gradient(goldenrod, gold, goldenrod);
+    padding: 2px;
+    margin: 2px;
+}
+
+.card-style-3 .attack .energy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-style-3 .attack {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    border-bottom: 3px solid black;
+    margin: 12px;
+}
+
+.card-style-3 .description {
+    margin: 12px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.card-style-3 .description .bold {
+    font-weight: bold;
+}
+
+.card-style-3 .attack .power {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.card-style-3 .data {
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 18px;
+    border: 3px solid goldenrod;
+}
+
+#pokemon-card-2 {
+    background: radial-gradient(at top left, rgb(171, 234, 171), rgb(41, 135, 41), rgb(171, 234, 171));
+}
+
+#pokemon-card-3 {
+    background: radial-gradient(at top left, rgb(236, 140, 45), rgb(255, 59, 5), rgb(236, 140, 45));
+}
+
+#pokemon-card-4 {
+    background: radial-gradient(at top left, rgb(168, 248, 236), rgb(39, 186, 239), rgb(168, 248, 236));
+}
