@@ -80,24 +80,29 @@ body {
 }
 
 .mebay-selected-item {
-    flex: 250px;
-    margin-left: 24px;
-    margin-top: 24px;
+    display: flex;
+    align-items: right;
+    margin: 12px;
+    padding: 12px;
 }
 
-.mebay-selected-item h2 a {
-    text-decoration: none;
+.mebay-selected-item .text-container h2 {
     color: #111111;
-    display: block;
+    font-size: 24px;
 }
 
-.mebay-selected-item h2 a:hover {
-    text-decoration: underline;
+.text-container {
+    flex: 1;
+    padding: 24px;
 }
 
-#main .mebay-selected-item .placeholder {
-    padding: 0px 36px;
-    background-color: rgb(198, 198, 199);
+.text-container p {
+    font-size: 20px;
+}
+
+.mebay-selected-item .image-container {
+    padding: 12px;
+    margin: 12px;
 }
 
 .selected-product-info {
