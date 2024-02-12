@@ -101,5 +101,13 @@
 }
 
 #pokemon-card-5 {
-    background: radial-gradient(at top left, rgb(229, 203, 3), orange, rgb(229, 203, 3));
+    background: radial-gradient(at top left, rgb(255, 229, 30), rgb(248, 174, 38), rgb(255, 229, 30));
+}
+
+#pokemon-card-6 {
+    background: radial-gradient(at top left, rgb(217, 159, 11), rgb(0, 68, 255));
+}
+
+#pokemon-card-7 {
+    background: radial-gradient(at top left, green, gold, green);
 }
