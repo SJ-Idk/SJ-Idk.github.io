@@ -99,3 +99,7 @@
 #beyblade-card-1 {
     background: radial-gradient(at top left, rgb(174, 174, 254), rgb(74, 53, 178), rgb(128, 128, 250));
 }
+
+#pokemon-card-5 {
+    background: radial-gradient(at top left, rgb(229, 203, 3), orange, rgb(229, 203, 3));
+}
