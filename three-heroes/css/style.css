@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: right;
+    align-items: center;
 }
 
 #hero-1 .hero-content {
