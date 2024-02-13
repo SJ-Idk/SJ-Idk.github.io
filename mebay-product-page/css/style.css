@@ -24,9 +24,6 @@ body {
 
 #header a {
     text-decoration: none;
-    background-color: rgb(142, 141, 138);
-    border: 2px solid rgb(160, 0, 240);
-    border-radius: 8px;
     padding: 6px;
 }
 
@@ -39,7 +36,7 @@ body {
 }
 
 #header #ii {
-    color: yellow;
+    color: rgb(255, 221, 0);
 }
 
 #header #b {
