@@ -8,16 +8,9 @@ body {
     background-color: rgb(35, 35, 34);
 }
 
-#layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
-}
-
 #layout #hero {
     background-image: url("../images/hero-1.jpg");
-    width: 100vw;
-    height: 85vh;
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -31,7 +24,13 @@ body {
     padding: 10vw;
 }
 
-#layout h3 {
+#content-layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#content-layout h3 {
     color: white;
     font-size: 24px;
     text-decoration: underline;
