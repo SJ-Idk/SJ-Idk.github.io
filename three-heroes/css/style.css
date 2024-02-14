@@ -25,6 +25,7 @@ body {
     border: 5px solid goldenrod;
     border-radius: 20px;
     color: white;
+    filter: opacity(75%);
 }
 
 #hero-1 h2 {
@@ -48,6 +49,7 @@ body {
     text-decoration: none;
     padding: 24px;
     margin: 5vh 5vw 10vh 0px;
+    
 }
 
 #hero-1 a:hover {
