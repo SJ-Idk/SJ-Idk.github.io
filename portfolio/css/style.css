@@ -16,10 +16,21 @@ body {
     margin: 48px auto;
 }
 
+#portfolio-layout #hero {
+    background-image: url("../images/hero.jpg");
+    height: 30vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 #portfolio-layout h1 {
     font-size: 40px;
     margin: 12px;
     padding: 12px;
+    color: white;
 }
 
 #portfolio-layout h3 {
