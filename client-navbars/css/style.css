@@ -11,7 +11,7 @@ body {
 
 #hero-1 {
     background-image: url("../images/clay-hero-1.jpg");
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -32,6 +32,12 @@ body {
     color: white;
 }
 
+#navbar a:hover {
+    background-color: #81914c;
+    color: #e8ff9e;
+    border-radius: 12px;
+}
+
 #navbar #logo h4 {
     font-size: 20px;
     font-family: "Berkshire Swash", serif;
@@ -49,6 +55,23 @@ body {
     margin: 48px auto;
     font-size: 24px;
     height: 200vh;
+}
+
+#layout img {
+    width: 300px;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 36px;
+}
+
+#layout a {
+    background-color: #283618;
+    border: 3px solid #606C38;
+    padding: 24px;
+    margin: 36px;
+    text-decoration: none;
+    color: white;
 }
 
 #footer {
