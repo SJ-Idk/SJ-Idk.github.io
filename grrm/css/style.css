@@ -489,11 +489,40 @@ body {
             "left-accent  card-1  card-1  card-1  right-accent"
             "left-accent  card-2  card-2  card-2  right-accent"
             "left-accent  card-3  card-3  card-3  right-accent"
-            "left-accent  aside   blog    blog    right-accent"
+            "left-accent  blog   blog    blog    right-accent"
+            "left-accent aside aside aside right-accent"
             ".            footer  footer  footer  ."
             ".            bottom  bottom  bottom  .";
     }
     
+    #top-left-accent {
+        grid-area: top-left-acc;
+    }
+    
+    #top-right-accent {
+        grid-area: top-right-acc;
+    }
+    
+    #header {
+        grid-area: header;
+    }
+    
+    #nav {
+        grid-area: navbar;
+    }
+    
+    #left-accent {
+        grid-area: left-accent;
+    }
+    
+    #right-accent {
+        grid-area: right-accent;
+    }
+    
+    #banner-container {
+        grid-area: banner;
+    }
+
     #card-1 {
         grid-area: card-1;
     }
@@ -504,6 +533,22 @@ body {
     
     #card-3 {
         grid-area: card-3;
+    }
+
+    #aside {
+        grid-area: aside;
+    }
+
+    #main {
+        grid-area: blog;
+    }
+
+    #footer {
+        grid-area: footer;
+    }
+    
+    #bottom {
+        grid-area: bottom;
     }
    
     #shield-image {
