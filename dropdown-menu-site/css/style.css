@@ -11,6 +11,7 @@ body {
     background-color: rgb(255, 146, 83);
     display: flex;
     align-items: center;
+    border-bottom: 4px solid black;
 }
 
 #navbar a {
@@ -81,6 +82,8 @@ body {
     background-color: rgb(255, 229, 212);
     padding: 12px;
     text-align: center;
+    box-shadow: 2px 2px 2px rgb(44, 41, 41);
+    filter: opacity(94%);
 }
 
 .card img {
