@@ -450,8 +450,8 @@ body {
             "banner  banner  banner "
             "card-1  card-2  card-3"
             "aside   blog    blog"
-            ".            footer  footer  footer  ."
-            ".            bottom  bottom  bottom  .";
+            "footer  footer  footer"
+            "bottom  bottom  bottom";
     }
 
     #header h1 {
@@ -491,8 +491,8 @@ body {
             "left-accent  card-3  card-3  card-3  right-accent"
             "left-accent  blog   blog    blog    right-accent"
             "left-accent aside aside aside right-accent"
-            ".            footer  footer  footer  ."
-            ".            bottom  bottom  bottom  .";
+            "footer  footer  footer"
+            "bottom  bottom  bottom";
     }
     
     #top-left-accent {
