@@ -35,13 +35,30 @@ body {
     padding: 24px;
 }
 
-#navbar img {
-    width: 200px;
+#navbar a:hover {
+    background-color: rgb(93, 48, 0);
 }
 
 #navbar #logo {
     margin-right: auto;
     font-size: 30px;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(106, 55, 0);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar .cta-button:hover {
+    background-color: rgb(231, 183, 132);
 }
 
 #layout {
@@ -106,8 +123,20 @@ body {
 
 /* Sculptors' Haven: Navbar 1 (End) */
 
+/* Angel Ears: Navbar 2 (Start) */
+
+#hero-2 {
+    background-image: url("../images/hero-2.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 #navbar-2 {
-    background: linear-gradient(to bottom, red, #6d3e3e);
+    background: linear-gradient(to bottom, rgb(255, 106, 0), #732304);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,17 +148,19 @@ body {
     padding: 24px;
 }
 
-#navbar-2 img {
-    width: 200px;
+#navbar-2 a:hover {
+    background-color: rgb(251, 149, 60);
 }
 
 #navbar-2 #logo {
     margin-right: auto;
+    font-size: 24px;
 }
 
-#navbar-2 .cta-button {
-    background-color: white;
-    color: black;
+#navbar-2 .cta-button-2 {
+    background-color: rgb(193, 18, 18);
+    color: white;
+    border: 3px solid rgb(137, 0, 0);
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -137,6 +168,10 @@ body {
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
+}
+
+#navbar-2 .cta-button-2:hover {
+    background-color: rgb(190, 45, 45);
 }
 
 #layout-2 {
@@ -153,8 +188,8 @@ body {
 #navbar-bottom-2 {
     background: linear-gradient(
         to bottom, 
-        rgb(205, 50, 50), 
-        rgb(128, 0, 0));
+        rgb(235, 70, 5), 
+        rgb(148, 30, 0));
         display: flex;
         justify-content: space-between;
 }
@@ -171,7 +206,7 @@ body {
 }
 
 #footer-2 {
-    background: linear-gradient(to bottom, rgb(128, 0, 0), #480101);
+    background: linear-gradient(to bottom, rgb(250, 175, 0), #482f01);
     color: white;
     padding: 12px;
 }
@@ -202,5 +237,108 @@ body {
 }
 
 #footer-columns-navbar-2 a {
+    padding: 8px 0px;
+}
+
+/* Angel Ears: Navbar 2 (End) */
+
+/* Tailored Spooks: Navbar 3 (Start) */
+
+#navbar-3 {
+    background: linear-gradient(to bottom, red, #6d3e3e);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-3 img {
+    width: 200px;
+}
+
+#navbar-3 #logo {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#layout-3 {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+#navbar-3 {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-bottom-3 {
+    background: linear-gradient(
+        to bottom, 
+        rgb(205, 50, 50), 
+        rgb(128, 0, 0));
+        display: flex;
+        justify-content: space-between;
+}
+
+#navbar-bottom-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+#header-3 {
+    position: sticky;
+    top: 0px;
+}
+
+#footer-3 {
+    background: linear-gradient(to bottom, rgb(128, 0, 0), #480101);
+    color: white;
+    padding: 12px;
+}
+
+#footer-3 a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar-3 {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar-3 {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar-3 div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-columns-navbar-3 a {
     padding: 8px 0px;
 }
