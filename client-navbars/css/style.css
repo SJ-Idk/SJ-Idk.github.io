@@ -244,8 +244,18 @@ body {
 
 /* Tailored Spooks: Navbar 3 (Start) */
 
+#hero-3 {
+    background-image: url("../images/hero-3.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 #navbar-3 {
-    background: linear-gradient(to bottom, red, #6d3e3e);
+    background: linear-gradient(to bottom, rgb(136, 0, 255), #593e6d);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -253,7 +263,8 @@ body {
 
 #navbar-3 a {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 24px;
     padding: 24px;
 }
 
@@ -263,11 +274,13 @@ body {
 
 #navbar-3 #logo {
     margin-right: auto;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-#navbar .cta-button {
-    background-color: white;
-    color: black;
+#navbar-3 .cta-button-3 {
+    background-color: black;
+    color: rgb(255, 98, 0);
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -291,15 +304,15 @@ body {
 #navbar-bottom-3 {
     background: linear-gradient(
         to bottom, 
-        rgb(205, 50, 50), 
-        rgb(128, 0, 0));
+        rgb(128, 50, 205), 
+        rgb(66, 0, 128));
         display: flex;
         justify-content: space-between;
 }
 
 #navbar-bottom-3 a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 12px 36px;
 }
 
@@ -309,14 +322,14 @@ body {
 }
 
 #footer-3 {
-    background: linear-gradient(to bottom, rgb(128, 0, 0), #480101);
-    color: white;
+    background: linear-gradient(to bottom, rgb(128, 32, 0), #481401);
+    color: black;
     padding: 12px;
 }
 
 #footer-3 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #footer-navbar-3 {
@@ -342,3 +355,5 @@ body {
 #footer-columns-navbar-3 a {
     padding: 8px 0px;
 }
+
+/* Tailored Spooks: Navbar 3 (End) */
