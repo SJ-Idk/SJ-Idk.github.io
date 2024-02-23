@@ -259,13 +259,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px solid black;
 }
 
 #navbar-3 a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 98, 0);
     font-size: 24px;
     padding: 24px;
+}
+
+#navbar-3 a:hover {
+    background-color: rgb(88, 28, 126);
 }
 
 #navbar-3 img {
@@ -312,8 +317,13 @@ body {
 
 #navbar-bottom-3 a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 136, 0);
+    font-size: 20px;
     padding: 12px 36px;
+}
+
+#navbar-bottom-3 a:hover {
+    background-color: rgb(95, 24, 133);
 }
 
 #header-3 {
@@ -322,8 +332,8 @@ body {
 }
 
 #footer-3 {
-    background: linear-gradient(to bottom, rgb(128, 32, 0), #481401);
-    color: black;
+    background: linear-gradient(to bottom, rgb(49, 0, 128), #1f0148);
+    color: rgb(255, 98, 0);
     padding: 12px;
 }
 
@@ -354,6 +364,23 @@ body {
 
 #footer-columns-navbar-3 a {
     padding: 8px 0px;
+}
+
+#layout-3 p {
+    background-color: black;
+    color: rgb(83, 0, 128);
+    border: 5px solid rgb(255, 111, 0);
+    font-size: 40px;
+    padding: 36px;
+    margin: 36px;
+}
+
+#layout-3 a {
+    color: rgb(83, 0, 128);
+}
+
+#layout-3 a:hover {
+    color: rgb(95, 53, 118);
 }
 
 /* Tailored Spooks: Navbar 3 (End) */
