@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 * {
     box-sizing: border-box;
@@ -243,6 +243,8 @@ body {
 /* Angel Ears: Navbar 2 (End) */
 
 /* Tailored Spooks: Navbar 3 (Start) */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
 
 #hero-3 {
     background-image: url("../images/hero-3.jpg");
@@ -252,7 +254,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
+} 
 
 #navbar-3 {
     background: linear-gradient(to bottom, rgb(136, 0, 255), #593e6d);
@@ -260,6 +262,9 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid black;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #navbar-3 a {
