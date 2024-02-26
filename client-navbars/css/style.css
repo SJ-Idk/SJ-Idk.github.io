@@ -13,7 +13,7 @@ body {
 
 #hero-1 {
     background-image: url("../images/clay-hero-1.jpg");
-    height: 80vh;
+    height: 50vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -67,10 +67,6 @@ body {
     font-size: 24px;
     height: 200vh;
 }
-#navbar {
-    position: sticky;
-    top: 0px;
-}
 
 #navbar-bottom {
     background: linear-gradient(
@@ -79,11 +75,6 @@ body {
         rgb(128, 64, 0));
         display: flex;
         justify-content: space-between;
-}
-
-#header {
-    position: sticky;
-    top: 0px;
 }
 
 #footer {
@@ -127,7 +118,7 @@ body {
 
 #hero-2 {
     background-image: url("../images/hero-2.jpg");
-    height: 80vh;
+    height: 50vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -180,10 +171,6 @@ body {
     font-size: 24px;
     height: 200vh;
 }
-#navbar-2 {
-    position: sticky;
-    top: 0px;
-}
 
 #navbar-bottom-2 {
     background: linear-gradient(
@@ -198,11 +185,6 @@ body {
     text-decoration: none;
     color: white;
     padding: 12px 36px;
-}
-
-#header-2 {
-    position: sticky;
-    top: 0px;
 }
 
 #footer-2 {
@@ -248,7 +230,7 @@ body {
 
 #hero-3 {
     background-image: url("../images/hero-3.jpg");
-    height: 80vh;
+    height: 50vh;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -306,10 +288,6 @@ body {
     font-size: 24px;
     height: 200vh;
 }
-#navbar-3 {
-    position: sticky;
-    top: 0px;
-}
 
 #navbar-bottom-3 {
     background: linear-gradient(
@@ -329,11 +307,6 @@ body {
 
 #navbar-bottom-3 a:hover {
     background-color: rgb(95, 24, 133);
-}
-
-#header-3 {
-    position: sticky;
-    top: 0px;
 }
 
 #footer-3 {
