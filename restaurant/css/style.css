@@ -71,7 +71,6 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-
 }
 
 #hero p {
@@ -89,6 +88,16 @@ body {
     background-color: #28763B;
     padding: 12px;
     margin: 12px;
+}
+
+#hero-2 {
+    background-image: url("../images/delivery-hero.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 #navbar-bottom {
