@@ -34,6 +34,10 @@ body {
     padding-bottom: 12px;
 }
 
+#navbar #logo img {
+    width: 200px;
+}
+
 #navbar .cta-button {
     background-color: #AAD037;
     color: black;
@@ -59,21 +63,17 @@ body {
     height: 200vh;
 }
 
-#navbar {
-    position: sticky;
-    top: 0px;
-}
-
 #navbar-bottom {
     background-color: #BF8D67; 
     display: flex;
     justify-content: space-between;
-    padding: 12px;
+    padding: 20px;
 }
 
 #navbar-bottom a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
     padding: 12px 36px;
 }
 
@@ -82,6 +82,9 @@ body {
 }
 
 .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: absolute;
     opacity: 0;
     visibility: hidden;
@@ -108,11 +111,6 @@ body {
 
 #navbar-bottom .dropdown-menu a:hover {
     background-color: #ecb082;
-}
-
-#header {
-    position: sticky;
-    top: 0px;
 }
 
 #footer {
