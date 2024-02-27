@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap')
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(230, 240, 200);
+}
+
+#navbar {
+    background-color: #28763B;
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar .cta-button {
+    background-color: #AAD037;
+    color: black;
+    border: 4px solid #7faa00;
+    border-radius: 10px;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    box-shadow: 2px 2px 2px #232b0b;
+}
+
+#navbar .cta-button:hover {
+    background-color: #b3cd64;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-bottom {
+    background-color: #BF8D67; 
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 36px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: #c0997b;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar-bottom .dropdown-menu a:hover {
+    background-color: #ecb082;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#footer {
+    background-color: #28763B;
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-columns-navbar a {
+    padding: 8px 0px;
+}
