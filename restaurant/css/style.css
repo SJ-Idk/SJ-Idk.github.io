@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 
 * {
     box-sizing: border-box;
@@ -69,26 +69,36 @@ body {
     background-size: cover;
     background-position: left right;
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-end;
-    opacity: 70%;
+    align-items: center;
+    opacity: 80%;
+}
+
+#hero h2 {
+    color: white;
+    padding: 12px;
+    margin: 12px;
+    
 }
 
 #hero p {
-    font-size: 12px;
+    font-size: 15px;
     color: white;
-    padding: 24px;
+    padding: 12px;
+    margin: 12px;
 }
 
 #hero .cta-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     text-decoration: none;
     color: white;
     background-color: #28763B;
     padding: 12px;
     margin: 12px;
+}
+
+#hero .cta-button:hover {
+    background-color: #477c54;
 }
 
 #hero-2 {
@@ -97,14 +107,37 @@ body {
     background-size: cover;
     background-position: center center;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    opacity: 70%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 80%;
+    margin-top: 24px;
+}
+
+#hero-2 h2 {
+    color: white;
+    padding: 12px;
+    margin: 12px;
+    font-size: 48px;
 }
 
 #hero-2 p {
     font-size: 15px;
     color: white;
+    padding: 12px;
+    margin: 12px;
+}
+
+#hero-2 .cta-button {
+    text-decoration: none;
+    color: white;
+    background-color: #28763B;
+    padding: 12px;
+    margin: 12px;
+}
+
+#hero-2 .cta-button:hover {
+    background-color: #477c54;
 }
 
 .cropped-grid-gallery {
