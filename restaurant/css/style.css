@@ -343,344 +343,6 @@ body {
     margin: 12px;
 }
 
-/* Mobile Responsiveness */
-
-@media screen and (max-width: 480px) {
-    #navbar {
-        background-color: #28763B;
-        display: flex;
-        align-items: center;
-    }
-    
-    #navbar a {
-        display: inline-block;
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-        padding: 24px;
-    }
-
-    #navbar #logo {
-        margin-right: auto;
-        font-weight: bold;
-        font-size: 48px;
-        padding-top: 13px;
-        padding-bottom: 12px;
-    }
-    
-    #navbar #logo img {
-        width: 200px;
-    }
-    
-    #navbar .cta-button {
-        background-color: #AAD037;
-        color: black;
-        border: 4px solid #7faa00;
-        border-radius: 10px;
-        padding: 16px 24px;
-        font-size: 18px;
-        font-weight: bold;
-        min-width: 150px;
-        text-align: center;
-        margin-right: 24px;
-        box-shadow: 2px 2px 2px #232b0b;
-    }
-    
-    #navbar .cta-button:hover {
-        background-color: #bcd869;
-    }
-    
-    #navbar-bottom {
-        background-color: #BF8D67; 
-        display: flex;
-        justify-content: space-between;
-        padding: 20px;
-    }
-    
-    #navbar-bottom a {
-        text-decoration: none;
-        color: black;
-        font-size: 18px;
-        font-weight: bold;
-        padding: 12px 36px;
-    }
-    
-    #navbar-bottom a:hover {
-        background-color:#f3b686;
-    }
-    
-    .dropdown-container {
-        position: relative;
-    }
-    
-    .dropdown-menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        position: absolute;
-        opacity: 0;
-        visibility: hidden;
-        transition:
-            opacity 0.25s,
-            visibility 0.25s;
-        z-index: 10;
-    }
-    
-    .dropdown-container:last-child .dropdown-menu {
-        right: 0px;
-    }
-    
-    .dropdown-container:hover .dropdown-menu {
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    .dropdown-menu a {
-        background-color: #c0997b;
-        width: 100%;
-        min-width: 200px;
-    }
-    
-    #navbar-bottom .dropdown-menu a:hover {
-        background-color: #ecb082;
-    }
-    
-    #layout {
-        width: 800px;
-        margin: 48px auto;
-        font-size: 24px;
-        height: 200vh;
-    }
-    
-    #hero {
-        background-image: url("../images/hero-burger.jpg");
-        height: 40vh;
-        background-size: cover;
-        background-position: left right;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        opacity: 80%;
-    }
-    
-    #hero h2 {
-        color: white;
-        padding: 12px;
-        margin: 12px;
-        
-    }
-    
-    #hero p {
-        font-size: 15px;
-        color: white;
-        padding: 12px;
-        margin: 12px;
-    }
-    
-    #hero .cta-button {
-        text-decoration: none;
-        color: white;
-        background-color: #28763B;
-        padding: 12px;
-        margin: 12px;
-    }
-    
-    #hero .cta-button:hover {
-        background-color: #477c54;
-    }
-    
-    #hero-2 {
-        background-image: url("../images/delivery-hero.jpg");
-        height: 40vh;
-        background-size: cover;
-        background-position: center center;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        opacity: 80%;
-        margin-top: 24px;
-    }
-    
-    #hero-2 h2 {
-        color: white;
-        padding: 12px;
-        margin: 12px;
-        font-size: 48px;
-    }
-    
-    #hero-2 p {
-        font-size: 15px;
-        color: white;
-        padding: 12px;
-        margin: 12px;
-    }
-    
-    #hero-2 .cta-button {
-        text-decoration: none;
-        color: white;
-        background-color: #28763B;
-        padding: 12px;
-        margin: 12px;
-    }
-    
-    #hero-2 .cta-button:hover {
-        background-color: #477c54;
-    }
-    
-    #card {
-        display: grid;
-        background-color: #BF8D68;
-        border: 5px solid #75573f;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: 
-            "heading heading"
-            "info img"
-            "button button";
-        padding: 12px;
-        margin: 24px;
-    }
-    
-    #card-section h1 {
-        text-align: center;
-    }
-    
-    #card h2 {
-        font-size: 36px;
-        color: white;
-        grid-area: heading;
-        padding: 12px;
-        margin: 12px;
-    }
-    
-    #card img {
-        grid-area: img;
-        width: 300px;
-        padding: 12px;
-        margin: 12px;
-    }
-    
-    #card p {
-        color: white;
-        grid-area: info;
-        font-size: 18px;
-        margin: 12px;
-        padding: 12px;
-    }
-    
-    #card .cta-button {
-        grid-area: button;
-        background-color: #28763B;
-        text-decoration: none;
-        color: white;
-        display: block;
-        text-align: center;
-        padding: 12px;
-        margin: 12px;
-    }
-    
-    #card .cta-button:hover {
-        background-color: #477c54;
-    }
-    
-    .single-column {
-        display: flex;
-        flex-wrap: wrap;
-        min-width: 600px;
-        max-width: 1200px;
-        margin: 0px auto;
-    }
-    
-    #card-section {
-        color:black;
-        padding: 48px;
-    }
-    
-    .card-container {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .card {
-        flex: 1;
-        border: 4px solid #445b00;
-        border-radius: 10px;
-        padding: 36px;
-        text-align: center;
-        margin: 36px;
-    }
-    
-    .card h4 {
-        font-size: 30px;
-        margin: 12px;
-    }
-    
-    .card img {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-    
-    }
-    
-    .card a {
-        text-decoration: none;
-        color: black;
-        background-color:#7faa00;
-        box-shadow:#222e00;
-        padding: 12px;
-        margin: 12px;
-    }
-    
-    .card a:hover {
-        background-color:rgb(183, 218, 78);
-    }
-    
-    #footer {
-        background-color: #28763B;
-        color: white;
-        padding: 12px;
-    }
-    
-    #footer a {
-        text-decoration: none;
-        color: white;
-    }
-    
-    #footer-navbar {
-        width: 800px;
-        margin: 0px auto;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    #footer-columns-navbar {
-        width: 800px;
-        margin: 0px auto;
-        padding: 48px 0px;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    #footer-columns-navbar div {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #footer-columns-navbar a {
-        padding: 8px 0px;
-    }
-    
-    #footer #logo img {
-        width: 200px;
-        padding: 6px;
-        margin: 12px;
-    }
-
-}
-
-/* Tablet Responsiveness */
-
 @media screen and (max-width: 768px) and (min-width: 480px) {
     #navbar {
         background-color: #28763B;
@@ -693,19 +355,19 @@ body {
         text-decoration: none;
         color: black;
         font-weight: bold;
-        padding: 24px;
+        padding: 18px;
     }
 
     #navbar #logo {
         margin-right: auto;
         font-weight: bold;
-        font-size: 48px;
-        padding-top: 13px;
-        padding-bottom: 12px;
+        font-size: 36px;
+        padding-top: 6px;
+        padding-bottom: 6px;
     }
     
     #navbar #logo img {
-        width: 200px;
+        width: 100px;
     }
     
     #navbar .cta-button {
@@ -713,12 +375,12 @@ body {
         color: black;
         border: 4px solid #7faa00;
         border-radius: 10px;
-        padding: 16px 24px;
-        font-size: 18px;
+        padding: 8px 15px;
+        font-size: 9px;
         font-weight: bold;
-        min-width: 150px;
+        min-width: 100px;
         text-align: center;
-        margin-right: 24px;
+        margin-right: 15px;
         box-shadow: 2px 2px 2px #232b0b;
     }
     
@@ -730,15 +392,15 @@ body {
         background-color: #BF8D67; 
         display: flex;
         justify-content: space-between;
-        padding: 20px;
+        padding: 15px;
     }
     
     #navbar-bottom a {
         text-decoration: none;
         color: black;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: bold;
-        padding: 12px 36px;
+        padding: 6px 24px;
     }
     
     #navbar-bottom a:hover {
@@ -773,8 +435,8 @@ body {
     
     .dropdown-menu a {
         background-color: #c0997b;
-        width: 100%;
-        min-width: 200px;
+        width: 50%;
+        min-width: 100px;
     }
     
     #navbar-bottom .dropdown-menu a:hover {
@@ -782,15 +444,15 @@ body {
     }
     
     #layout {
-        width: 800px;
-        margin: 48px auto;
-        font-size: 24px;
-        height: 200vh;
+        width: 400px;
+        margin: 36px auto;
+        font-size: 15px;
+        height: 100vh;
     }
     
     #hero {
         background-image: url("../images/hero-burger.jpg");
-        height: 40vh;
+        height: 20vh;
         background-size: cover;
         background-position: left right;
         display: flex;
@@ -802,16 +464,16 @@ body {
     
     #hero h2 {
         color: white;
-        padding: 12px;
-        margin: 12px;
+        padding: 6px;
+        margin: 6px;
         
     }
     
     #hero p {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
-        padding: 12px;
-        margin: 12px;
+        padding: 6px;
+        margin: 6px;
     }
     
     #hero .cta-button {
@@ -828,7 +490,7 @@ body {
     
     #hero-2 {
         background-image: url("../images/delivery-hero.jpg");
-        height: 40vh;
+        height: 20vh;
         background-size: cover;
         background-position: center center;
         display: flex;
@@ -841,24 +503,24 @@ body {
     
     #hero-2 h2 {
         color: white;
-        padding: 12px;
-        margin: 12px;
-        font-size: 48px;
+        padding: 6px;
+        margin: 6px;
+        font-size: 36px;
     }
     
     #hero-2 p {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
-        padding: 12px;
-        margin: 12px;
+        padding: 6px;
+        margin: 6px;
     }
     
     #hero-2 .cta-button {
         text-decoration: none;
         color: white;
         background-color: #28763B;
-        padding: 12px;
-        margin: 12px;
+        padding: 6px;
+        margin: 6px;
     }
     
     #hero-2 .cta-button:hover {
@@ -874,8 +536,8 @@ body {
             "heading heading"
             "info img"
             "button button";
-        padding: 12px;
-        margin: 24px;
+        padding: 6px;
+        margin: 12px;
     }
     
     #card-section h1 {
@@ -886,23 +548,23 @@ body {
         font-size: 36px;
         color: white;
         grid-area: heading;
-        padding: 12px;
-        margin: 12px;
+        padding: 6px;
+        margin: 6px;
     }
     
     #card img {
         grid-area: img;
-        width: 300px;
-        padding: 12px;
-        margin: 12px;
+        width: 150px;
+        padding: 6px;
+        margin: 6px;
     }
     
     #card p {
         color: white;
         grid-area: info;
-        font-size: 18px;
-        margin: 12px;
-        padding: 12px;
+        font-size: 12px;
+        margin: 6px;
+        padding: 6px;
     }
     
     #card .cta-button {
@@ -912,8 +574,8 @@ body {
         color: white;
         display: block;
         text-align: center;
-        padding: 12px;
-        margin: 12px;
+        padding: 6px;
+        margin: 6px;
     }
     
     #card .cta-button:hover {
@@ -923,14 +585,14 @@ body {
     .single-column {
         display: flex;
         flex-wrap: wrap;
-        min-width: 600px;
-        max-width: 1200px;
+        min-width: 300px;
+        max-width: 600px;
         margin: 0px auto;
     }
     
     #card-section {
         color:black;
-        padding: 48px;
+        padding: 36px;
     }
     
     .card-container {
@@ -942,19 +604,19 @@ body {
         flex: 1;
         border: 4px solid #445b00;
         border-radius: 10px;
-        padding: 36px;
+        padding: 24px;
         text-align: center;
-        margin: 36px;
+        margin: 24px;
     }
     
     .card h4 {
-        font-size: 30px;
-        margin: 12px;
+        font-size: 24px;
+        margin: 6px;
     }
     
     .card img {
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
     
     }
@@ -964,8 +626,8 @@ body {
         color: black;
         background-color:#7faa00;
         box-shadow:#222e00;
-        padding: 12px;
-        margin: 12px;
+        padding: 6px;
+        margin: 6px;
     }
     
     .card a:hover {
@@ -975,7 +637,7 @@ body {
     #footer {
         background-color: #28763B;
         color: white;
-        padding: 12px;
+        padding: 6px;
     }
     
     #footer a {
@@ -984,16 +646,16 @@ body {
     }
     
     #footer-navbar {
-        width: 800px;
+        width: 400px;
         margin: 0px auto;
         display: flex;
         justify-content: space-between;
     }
     
     #footer-columns-navbar {
-        width: 800px;
+        width: 400px;
         margin: 0px auto;
-        padding: 48px 0px;
+        padding: 36px 0px;
         display: flex;
         justify-content: space-between;
     }
@@ -1004,13 +666,13 @@ body {
     }
     
     #footer-columns-navbar a {
-        padding: 8px 0px;
+        padding: 4px 0px;
     }
     
     #footer #logo img {
-        width: 200px;
+        width: 100px;
         padding: 6px;
-        margin: 12px;
+        margin: 6px;
     }
 
 }
