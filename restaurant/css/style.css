@@ -195,6 +195,46 @@ body {
     background-color: #477c54;
 }
 
+#layout-2 {
+    text-align: center;
+}
+
+#layout-2 h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+#layout-2 h2 {
+    font-size: 30px;
+}
+
+#hero-3 {
+    background-image: url("../images/menu-hero.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 80%;
+    margin-top: 24px;
+}
+
+#layout-2 .cta-button {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color:#7faa00;
+    margin: 24px;
+    padding: 12px;
+}
+
+#layout-2 .cta-button:hover {
+    background-color:rgb(170, 209, 52);
+}
+
 #card {
     display: grid;
     background-color: #BF8D68;
@@ -210,6 +250,8 @@ body {
 
 #card-section h1 {
     text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
 }
 
 #card h2 {
