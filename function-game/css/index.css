@@ -22,16 +22,16 @@ body {
     z-index: 1;
 }
 .grid-block.grass {
-    background-image: url('../images/grass.png');
+    background-image: url('../images/real-grass.jpeg');
 }
 .grid-block.rock {
-    background-image: url('../images/rock.png');
+    background-image: url('../images/not-sus.png');
 }
 .grid-block.gravel {
-    background-image: url('../images/gravel.png');
+    background-image: url('../images/chicken-bone.png');
 }
 .grid-block.hole {
-    background-image: url('../images/hole_v3.png');
+    background-image: url('../images/black-hole.png');
 }
 
 /*******************************************************************************
