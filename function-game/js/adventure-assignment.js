@@ -87,5 +87,5 @@ function reactToJumpUpButton() {
 
 function reactToJumpButton() {
 
-    jump(6);
+    jump(60);
 }
